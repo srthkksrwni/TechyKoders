@@ -1,11 +1,18 @@
 import React from "react"
-// import './App.css'
+
+// import { Router, Route } from 'react-router-dom';
+import Index from "../public/pages";
+
 
 function App() {
 
   return (
     <>
-       <h1>hii lulli</h1>
+            <Index />
+            {/* <Router>
+                <Route path="/" Component={<Index />}/>
+            </Router> */}
+
     </>
   )
 }
