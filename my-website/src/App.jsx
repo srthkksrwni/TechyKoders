@@ -1,17 +1,18 @@
 import React from "react"
 
 // import { Router, Route } from 'react-router-dom';
-import Index from "../public/pages";
+import Home from "../public/pages/Home";
+// import Footer from "../public/componenets/Footer";
+// import Hero from "../public/componenets/Hero";
 
 
 function App() {
 
   return (
     <>
-            <Index />
-            {/* <Router>
-                <Route path="/" Component={<Index />}/>
-            </Router> */}
+            <Home />
+            {/* <Footer/> */}
+            {/* <Hero/> */}
 
     </>
   )

@@ -7,7 +7,7 @@ function Header() {
                 <div className="container">
                     <nav className="navbar navbar-dark navbar-expand-lg py-0">
                         <a href="index.html" className="navbar-brand">
-                            <h1 className="text-white fw-bold d-block">High<span className="text-secondary">Tech</span> </h1>
+                            <h1 className="text-white fw-bold d-block">Techy<span className="text-secondary">Koder</span> </h1>
                         </a>
                         <button type="button" className="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                             <span className="navbar-toggler-icon"></span>
