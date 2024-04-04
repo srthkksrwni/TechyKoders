@@ -9,7 +9,7 @@ function Services()
             {/* <!-- Services Start --> */}
         <div className="container-fluid services py-5 my-5">
             <div className="container py-5">
-                <div className="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                <div className="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style={{maxWidth: "600px"}}>
                     <h5 className="text-primary">Our Services</h5>
                     <h1>Services Built Specifically For Your Business</h1>
                 </div>

@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "../componenets/Header";
-import product1 from "../../src/assets/img/about-1.jpg"
-import product1 from "../../src/assets/img/about-2.jpg"
-import product1 from "../../src/assets/img/team-1.jpg" 
-import product1 from "../../src/assets/img/team-2.jpg" 
-import product1 from "../../src/assets/img/team-3.jpg" 
-import product1 from "../../src/assets/img/team-4.jpg" 
+import about_1 from "../../src/assets/img/about-1.jpg"
+import about_2 from "../../src/assets/img/about-2.jpg"
+import team1 from "../../src/assets/img/team-1.jpg" 
+import team2 from "../../src/assets/img/team-2.jpg" 
+import team3 from "../../src/assets/img/team-3.jpg" 
+import team4 from "../../src/assets/img/team-4.jpg" 
 function About() {
     return (
         <>
@@ -67,9 +67,9 @@ function About() {
                     <div className="row g-5">
                         <div className="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
                             <div className="h-100 position-relative">
-                                <img src={about-1} className="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;"/>
+                                <img src={about_1} className="img-fluid w-75 rounded" alt="" style={{marginBottom: "25%"}}/>
                                     <div className="position-absolute w-75" style={{top: "25%",left: "25%"}}>
-                                        <img src={about-2} className="img-fluid w-100 rounded" alt=""/>
+                                        <img src={about_2} className="img-fluid w-100 rounded" alt=""/>
                                     </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ function About() {
             {/* <!-- Team Start --> */}
             <div className="container-fluid pb-5 mb-5 team">
                 <div className="container pb-5">
-                    <div className="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <div className="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style={{maxWidth: "600px"}}>
                         <h5 className="text-primary">Our Team</h5>
                         <h1>Meet our expert Team</h1>
                     </div>
@@ -98,7 +98,7 @@ function About() {
                             <div className="team-content">
                                 <div className="team-img-icon">
                                     <div className="team-img rounded-circle">
-                                        <img src={team-1} className="img-fluid w-100 rounded-circle" alt=""/>
+                                        <img src={team1} className="img-fluid w-100 rounded-circle" alt=""/>
                                     </div>
                                     <div className="team-name text-center py-3">
                                         <h4 className="">Full Name</h4>
@@ -117,7 +117,7 @@ function About() {
                             <div className="team-content">
                                 <div className="team-img-icon">
                                     <div className="team-img rounded-circle">
-                                        <img src={team-2} className="img-fluid w-100 rounded-circle" alt=""/>
+                                        <img src={team2} className="img-fluid w-100 rounded-circle" alt=""/>
                                     </div>
                                     <div className="team-name text-center py-3">
                                         <h4 className="">Full Name</h4>
@@ -136,7 +136,7 @@ function About() {
                             <div className="team-content">
                                 <div className="team-img-icon">
                                     <div className="team-img rounded-circle">
-                                        <img src={team-3} className="img-fluid w-100 rounded-circle" alt=""/>
+                                        <img src={team3} className="img-fluid w-100 rounded-circle" alt=""/>
                                     </div>
                                     <div className="team-name text-center py-3">
                                         <h4 className="">Full Name</h4>
@@ -155,7 +155,7 @@ function About() {
                             <div className="team-content">
                                 <div className="team-img-icon">
                                     <div className="team-img rounded-circle">
-                                        <img src={team-4} className="img-fluid w-100 rounded-circle" alt=""/>
+                                        <img src={team4} className="img-fluid w-100 rounded-circle" alt=""/>
                                     </div>
                                     <div className="team-name text-center py-3">
                                         <h4 className="">Full Name</h4>
