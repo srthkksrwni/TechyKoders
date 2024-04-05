@@ -80,12 +80,12 @@ export default function Programes() {
     <>
       {alert && (
         <div
-          class="max-w-xs bg-white border border-gray-200 rounded-xl shadow-lg dark:bg-gray-800 dark:border-gray-700 fixed top-0 left-0 right-0 mx-auto mt-10 z-50"
+          className="max-w-xs bg-white border border-gray-200 rounded-xl shadow-lg dark:bg-gray-800 dark:border-gray-700 fixed top-0 left-0 right-0 mx-auto mt-10 z-50"
           role="alert">
-          <div class="flex p-4">
-            <div class="flex-shrink-0">
+          <div className="flex p-4">
+            <div className="flex-shrink-0">
               <svg
-                class="flex-shrink-0 size-4 text-teal-500 mt-0.5"
+                className="flex-shrink-0 size-4 text-teal-500 mt-0.5"
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -94,28 +94,28 @@ export default function Programes() {
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
               </svg>
             </div>
-            <div class="ms-3">
-              <p class="text-sm text-gray-700 dark:text-gray-400">
+            <div className="ms-3">
+              <p className="text-sm text-gray-700 dark:text-gray-400">
                 This is a success message.
               </p>
             </div>
           </div>
         </div>
       )}
-      <div className="flex justify-center p-5">
-        <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-5xl">
-          <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+      <div classNameName="flex justify-center p-5">
+        <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-5xl">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
             Virtual Internship
           </span>{" "}
-          <span className="text-purple-700"> Program</span>
+          <span classNameName="text-purple-700"> Program</span>
         </h1>
       </div>
-      <div class="flex items-center justify-center p-12">
+      <div className="flex items-center justify-center p-12">
         {/* <!-- Author: FormBold Team --> */}
-        <div class="container">
+        <div className="container">
           <form onSubmit={SubmitForm}>
-            <div class="mb-3">
-              <label for="name" class="form-label">
+            <div className="mb-3">
+              <label for="name" className="form-label">
                 Full Name
               </label>
               <input
@@ -126,11 +126,11 @@ export default function Programes() {
                 placeholder="Full Name"
                 value={formData.name}
                 onChange={handleChange}
-                class="form-control"
+                className="form-control"
               />
             </div>
-            <div class="mb-3">
-              <label for="phone" class="form-label">
+            <div className="mb-3">
+              <label for="phone" className="form-label">
                 Contact Number
               </label>
               <input
@@ -140,11 +140,11 @@ export default function Programes() {
                 required
                 value={formData.phone}
                 onChange={handleChange}
-                class="form-control"
+                className="form-control"
               />
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">
+            <div className="mb-3">
+              <label for="email" className="form-label">
                 Email Address
               </label>
               <input
@@ -155,17 +155,17 @@ export default function Programes() {
                 onChange={handleChange}
                 id="email"
                 placeholder="Enter your email"
-                class="form-control"
+                className="form-control"
               />
             </div>
 
-            <div className="mb-4">
-              <label className="block text-gray-700 font-medium mb-2">
+            <div classNameName="mb-4">
+              <label classNameName="block text-gray-700 font-medium mb-2">
                 Year
               </label>
-              <div className="flex flex-wrap -mx-2">
-                <div className="px-2 w-1/3">
-                  <div className="form-check">
+              <div classNameName="flex flex-wrap -mx-2">
+                <div classNameName="px-2 w-1/3">
+                  <div classNameName="form-check">
                     <input
                       type="radio"
                       id="year-1"
@@ -173,15 +173,15 @@ export default function Programes() {
                       value="1st Year"
                       onChange={handleChange}
                       checked={formData.year === "1st Year"}
-                      className="form-check-input"
+                      classNameName="form-check-input"
                     />
-                    <label htmlFor="year-1" className="form-check-label">
+                    <label htmlFor="year-1" classNameName="form-check-label">
                       1st Year
                     </label>
                   </div>
                 </div>
-                <div className="px-2 w-1/3">
-                  <div className="form-check">
+                <div classNameName="px-2 w-1/3">
+                  <div classNameName="form-check">
                     <input
                       type="radio"
                       id="year-2"
@@ -189,15 +189,15 @@ export default function Programes() {
                       value="2nd Year"
                       onChange={handleChange}
                       checked={formData.year === "2nd Year"}
-                      className="form-check-input"
+                      classNameName="form-check-input"
                     />
-                    <label htmlFor="year-2" className="form-check-label">
+                    <label htmlFor="year-2" classNameName="form-check-label">
                       2nd Year
                     </label>
                   </div>
                 </div>
-                <div className="px-2 w-1/3">
-                  <div className="form-check">
+                <div classNameName="px-2 w-1/3">
+                  <div classNameName="form-check">
                     <input
                       type="radio"
                       id="year-3"
@@ -205,15 +205,15 @@ export default function Programes() {
                       value="3rd Year"
                       onChange={handleChange}
                       checked={formData.year === "3rd Year"}
-                      className="form-check-input"
+                      classNameName="form-check-input"
                     />
-                    <label htmlFor="year-3" className="form-check-label">
+                    <label htmlFor="year-3" classNameName="form-check-label">
                       3rd Year
                     </label>
                   </div>
                 </div>
-                <div className="px-2 w-1/3">
-                  <div className="form-check">
+                <div classNameName="px-2 w-1/3">
+                  <div classNameName="form-check">
                     <input
                       type="radio"
                       id="year-4"
@@ -221,15 +221,15 @@ export default function Programes() {
                       value="4th Year"
                       onChange={handleChange}
                       checked={formData.year === "4th Year"}
-                      className="form-check-input"
+                      classNameName="form-check-input"
                     />
-                    <label htmlFor="year-4" className="form-check-label">
+                    <label htmlFor="year-4" classNameName="form-check-label">
                       4th Year
                     </label>
                   </div>
                 </div>
-                <div className="px-2 w-1/3">
-                  <div className="form-check">
+                <div classNameName="px-2 w-1/3">
+                  <div classNameName="form-check">
                     <input
                       type="radio"
                       id="year-other"
@@ -237,9 +237,9 @@ export default function Programes() {
                       value="Other"
                       onChange={handleChange}
                       checked={formData.year === "Other"}
-                      className="form-check-input"
+                      classNameName="form-check-input"
                     />
-                    <label htmlFor="year-other" className="form-check-label">
+                    <label htmlFor="year-other" classNameName="form-check-label">
                       Other
                     </label>
                   </div>
@@ -247,11 +247,11 @@ export default function Programes() {
               </div>
             </div>
 
-            <div className="mb-4">
-              <label className="block text-gray-700 font-medium mb-2">
+            <div classNameName="mb-4">
+              <label classNameName="block text-gray-700 font-medium mb-2">
                 Domain Of Internship *
               </label>
-              <div className="form-check">
+              <div classNameName="form-check">
                 <input
                   type="radio"
                   id="web-development-basic"
@@ -259,15 +259,15 @@ export default function Programes() {
                   value="Web Development Basic"
                   onChange={handleChange}
                   checked={formData.domain === "Web Development Basic"}
-                  className="form-check-input"
+                  classNameName="form-check-input"
                 />
                 <label
                   htmlFor="web-development-basic"
-                  className="form-check-label">
+                  classNameName="form-check-label">
                   Web Development Basic
                 </label>
               </div>
-              <div className="form-check">
+              <div classNameName="form-check">
                 <input
                   type="radio"
                   id="full-stack-web-development"
@@ -278,15 +278,15 @@ export default function Programes() {
                     formData.domain ===
                     "Full Stack Web Development (Using Any Stack)"
                   }
-                  className="form-check-input"
+                  classNameName="form-check-input"
                 />
                 <label
                   htmlFor="full-stack-web-development"
-                  className="form-check-label">
+                  classNameName="form-check-label">
                   Full Stack Web Development
                 </label>
               </div>
-              <div className="form-check">
+              <div classNameName="form-check">
                 <input
                   type="radio"
                   id="app-development"
@@ -294,13 +294,13 @@ export default function Programes() {
                   value="App Development"
                   onChange={handleChange}
                   checked={formData.domain === "App Development"}
-                  className="form-check-input"
+                  classNameName="form-check-input"
                 />
-                <label htmlFor="app-development" className="form-check-label">
+                <label htmlFor="app-development" classNameName="form-check-label">
                   App Development
                 </label>
               </div>
-              <div className="form-check">
+              <div classNameName="form-check">
                 <input
                   type="radio"
                   id="machine-learning"
@@ -308,13 +308,13 @@ export default function Programes() {
                   value="Machine Learning"
                   onChange={handleChange}
                   checked={formData.domain === "Machine Learning"}
-                  className="form-check-input"
+                  classNameName="form-check-input"
                 />
-                <label htmlFor="machine-learning" className="form-check-label">
+                <label htmlFor="machine-learning" classNameName="form-check-label">
                   Machine Learning
                 </label>
               </div>
-              <div className="form-check">
+              <div classNameName="form-check">
                 <input
                   type="radio"
                   id="data-science"
@@ -322,9 +322,9 @@ export default function Programes() {
                   value="Java Development"
                   onChange={handleChange}
                   checked={formData.domain === "Java Development"}
-                  className="form-check-input"
+                  classNameName="form-check-input"
                 />
-                <label htmlFor="data-science" className="form-check-label">
+                <label htmlFor="data-science" classNameName="form-check-label">
                   Java Development
                 </label>
               </div>
@@ -333,7 +333,7 @@ export default function Programes() {
             <div>
               <button
                 type="submit"
-                className="btn btn-primary w-full rounded-md py-3 px-8 text-center text-base font-semibold text-white">
+                classNameName="btn btn-primary w-full rounded-md py-3 px-8 text-center text-base font-semibold text-white">
                 Submit
               </button>
             </div>
