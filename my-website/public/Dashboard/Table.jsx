@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import Table1 from "./Table1";
+import Table2 from "./Table2";
+import Table3 from "./Table3";
 
 export default function Table() {
   // State to manage the selected radio button
@@ -54,6 +57,9 @@ export default function Table() {
           Radio 3
         </label>
       </div>
+      <div>{selectedRadio === "btnradio1" && <Table1 />}</div>
+      <div>{selectedRadio === "btnradio2" && <Table2 />}</div>
+      <div>{selectedRadio === "btnradio3" && <Table3 />}</div>
     </div>
   );
 }
