@@ -5,7 +5,7 @@ function Contact()
 {
     return(
        <>
-            <Header/>
+            {/* <Header/> */}
             {/* <!-- Contact Start --> */}
         <div className="container-fluid py-5 mt-5">
             <div className="container py-5">

@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../componenets/Header";
 import carousel_Image1 from "../../src/assets/img/carousel-1.jpg"
 import carousel_image2 from "../../src/assets/img/carousel-2.jpg"
 import about_img1 from "../../src/assets/img/about-1.jpg"
@@ -10,16 +9,11 @@ import img3 from "../../src/assets/img/project-3.jpg"
 import img4 from "../../src/assets/img/project-4.jpg"
 import img5 from "../../src/assets/img/project-5.jpg"
 import img6 from "../../src/assets/img/project-6.jpg"
-import Footer from "../componenets/Footer";
-import About from "./About";
-import Projects from "./Projects";
+
 
 function Home() {
     return (
-        <>
-            <Header />
-            
-           
+        <> 
                 <>
                     <div className="container-fluid px-0">
                         <div id="carouselId" className="carousel slide" data-bs-ride="carousel">
@@ -290,7 +284,7 @@ function Home() {
                         </div>
                     </div>
                 </>
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }

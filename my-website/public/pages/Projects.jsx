@@ -10,7 +10,7 @@ function Projects()
 {  
     return(
        <>
-            <Header/>
+            {/* <Header/> */}
             {/* <!-- Project Start --> */}
         <div classNameName="container-fluid project py-5 my-5">
             <div className="container py-5">

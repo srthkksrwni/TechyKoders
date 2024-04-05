@@ -9,7 +9,7 @@ import team4 from "../../src/assets/img/team-4.jpg"
 function About() {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
 
             {/* <!-- Page Header Start --> */}
             <div className="container-fluid page-header py-5">
