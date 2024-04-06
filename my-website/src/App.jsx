@@ -10,11 +10,11 @@ import Programes from "../public/componenets/Programes";
 function App() {
   return (
     <>
-      {/* <Home /> */}
+      <Home />
       {/* <Footer/> */}
       {/* <Hero/> */}
       {/* <Table /> */}
-      <Programes />
+      {/* <Programes /> */}
     </>
   );
 }
