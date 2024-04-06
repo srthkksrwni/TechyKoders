@@ -34,10 +34,10 @@ export default function Table1() {
   }, []);
 
   return (
-    <div className="d-flex justify-content-center container mt-5">
-      <table class="table table-striped">
-        <thead className="bg-dark">
-          <tr className="text-white">
+    <div classNameName="d-flex justify-content-center container mt-5">
+      <table className="table table-striped">
+        <thead classNameName="bg-dark">
+          <tr classNameName="text-white">
             <th scope="col">#</th>
             <th scope="col">First</th>
             <th scope="col">Last</th>

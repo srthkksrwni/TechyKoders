@@ -2313,14 +2313,14 @@
 
 		if (video.type === 'youtube') {
 			html = '<iframe width="' + width + '" height="' + height + '" src="//www.youtube.com/embed/' +
-				video.id + '?autoplay=1&rel=0&v=' + video.id + '" frameborder="0" allowfullscreen></iframe>';
+				video.id + '?autoplay=1&rel=0&v=' + video.id + '" frameborder="0" allowFullScreen></iframe>';
 		} else if (video.type === 'vimeo') {
 			html = '<iframe src="//player.vimeo.com/video/' + video.id +
 				'?autoplay=1" width="' + width + '" height="' + height +
-				'" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+				'" frameborder="0" webkitallowFullScreen mozallowFullScreen allowFullScreen></iframe>';
 		} else if (video.type === 'vzaar') {
 			html = '<iframe frameborder="0"' + 'height="' + height + '"' + 'width="' + width +
-				'" allowfullscreen mozallowfullscreen webkitAllowFullScreen ' +
+				'" allowFullScreen mozallowFullScreen webkitallowFullScreen ' +
 				'src="//view.vzaar.com/' + video.id + '/player?autoplay=true"></iframe>';
 		}
 

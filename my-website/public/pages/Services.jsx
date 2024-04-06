@@ -5,7 +5,7 @@ function Services()
 {
     return(
        <>
-            <Header/>
+            {/* <Header/> */}
             {/* <!-- Services Start --> */}
         <div className="container-fluid services py-5 my-5">
             <div className="container py-5">

@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Table3() {
   return (
-    <div className="d-flex justify-content-center container mt-5">
-      <table class="table table-striped">
+    <div classNameName="d-flex justify-content-center container mt-5">
+      <table className="table table-striped">
         <thead>
           <tr>
             <th scope="col">#</th>
