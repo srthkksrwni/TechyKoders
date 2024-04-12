@@ -47,9 +47,7 @@ function Home() {
                       An Innovative IT Solutions Agency
                     </h1>
                     <p className="mb-4 text-white fs-5 animated fadeInDown">
-                      Lorem ipsum dolor sit amet elit. Sed efficitur quis purus
-                      ut interdum. Pellentesque aliquam dolor eget urna
-                      ultricies tincidunt.
+                    "Providing Great IT Solutions & Empowering Students with  Internships to Achieve Their Dream Careers."
                     </p>
                     <a href="" className="me-2">
                       <button
@@ -83,9 +81,7 @@ function Home() {
                       Quality Digital Services You Really Need!
                     </h1>
                     <p className="mb-4 text-white fs-5 animated fadeInDown">
-                      Lorem ipsum dolor sit amet elit. Sed efficitur quis purus
-                      ut interdum. Pellentesque aliquam dolor eget urna
-                      ultricies tincidunt.
+                    Welcome to techyKoders, Where Dreams Meet Technology!
                     </p>
                     <a href="" className="me-2">
                       <button

@@ -8,7 +8,7 @@ function Header() {
                 <div className="container">
                     <nav className="navbar navbar-dark navbar-expand-lg py-0">
                         <Link href={'/'} className="navbar-brand">
-                            <h1 className="text-white fw-bold d-block">Techy<span className="text-secondary">Koder</span> </h1>
+                            <h1 className="text-white fw-bold d-block">Techy<span className="text-secondary">Koders</span> </h1>
                         </Link>
                         <button type="button" className="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                             <span className="navbar-toggler-icon"></span>
@@ -43,7 +43,7 @@ function Header() {
                             </div>
                             <div className="d-flex flex-column pe-4 border-end">
                                 <span className="text-white-50">Have any questions?</span>
-                                <span className="text-secondary">Call: + 0123 456 7890</span>
+                                <span className="text-secondary">Call: + 916394852594</span>
                             </div>
                             <div className="d-flex align-items-center justify-content-center ms-4 ">
                                 <a href="#"><i className="bi bi-search text-white fa-2x"></i> </a>
