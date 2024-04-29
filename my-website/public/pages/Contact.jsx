@@ -37,12 +37,6 @@ function Contact() {
             style={{ maxWidth: "600px" }}>
             <h5 className="text-primary">Get In Touch</h5>
             <h1 className="mb-3">Contact for any query</h1>
-            <p className="mb-2">
-              The contact form is currently inactive. Get a functional and
-              working contact form with Ajax & PHP in a few minutes. Just copy
-              and paste the files, add a little code and you're done.{" "}
-              <a href="https://htmlcodex.com/contact-form">Download Now</a>.
-            </p>
           </div>
           <div className="contact-detail position-relative p-5">
             <div className="row g-5 mb-5 justify-content-center">
@@ -58,10 +52,10 @@ function Contact() {
                   <div className="ms-3">
                     <h4 className="text-primary">Address</h4>
                     <a
-                      href="https://goo.gl/maps/Zd4BCynmTb98ivUJ6"
+                      href="https://maps.app.goo.gl/9QM23pnfhpHrFcow9"
                       target="_blank"
                       className="h5">
-                      23 rank Str, NY
+                      Allahabad,India
                     </a>
                   </div>
                 </div>

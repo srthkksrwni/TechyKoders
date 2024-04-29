@@ -9,6 +9,7 @@ import img3 from "../../src/assets/img/project-3.jpg";
 import img4 from "../../src/assets/img/project-4.jpg";
 import img5 from "../../src/assets/img/project-5.jpg";
 import img6 from "../../src/assets/img/project-6.jpg";
+import Services from "./Services";
 
 function Home() {
   return (
@@ -19,7 +20,7 @@ function Home() {
             id="carouselId"
             className="carousel slide"
             data-bs-ride="carousel">
-            <ol className="carousel-indicators">
+            {/* <ol className="carousel-indicators">
               <li
                 data-bs-target="#carouselId"
                 data-bs-slide-to="0"
@@ -30,7 +31,7 @@ function Home() {
                 data-bs-target="#carouselId"
                 data-bs-slide-to="1"
                 aria-label="Second slide"></li>
-            </ol>
+            </ol> */}
             <div className="carousel-inner" role="listbox">
               <div className="carousel-item active">
                 <img
@@ -41,21 +42,21 @@ function Home() {
                 <div className="carousel-caption">
                   <div className="container carousel-content">
                     <h6 className="text-secondary h4 animated fadeInUp">
-                      Best IT Solutions
+                      Best Internship Opportunities
                     </h6>
                     <h1 className="text-white display-1 mb-4 animated fadeInRight">
-                      An Innovative IT Solutions Agency
+                      An Innovative Internship Provider
                     </h1>
                     <p className="mb-4 text-white fs-5 animated fadeInDown">
-                      Lorem ipsum dolor sit amet elit. Sed efficitur quis purus
-                      ut interdum. Pellentesque aliquam dolor eget urna
-                      ultricies tincidunt.
+                      Innovative Internship Solutions: Empowering Tomorrow's
+                      Innovators to Thrive in the Ever-Evolving World of
+                      Technology
                     </p>
-                    <a href="" className="me-2">
+                    <a href="/intership" className="me-2">
                       <button
                         type="button"
                         className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">
-                        Read More
+                        Intership Now
                       </button>
                     </a>
                     <a href="" className="ms-2">
@@ -68,7 +69,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="carousel-item">
+              {/* <div className="carousel-item">
                 <img
                   src={carousel_image2}
                   className="img-fluid"
@@ -103,9 +104,9 @@ function Home() {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
-            <button
+            {/* <button
               className="carousel-control-prev"
               type="button"
               data-bs-target="#carouselId"
@@ -124,7 +125,7 @@ function Home() {
                 className="carousel-control-next-icon"
                 aria-hidden="true"></span>
               <span className="visually-hidden">Next</span>
-            </button>
+            </button> */}
           </div>
         </div>
 
@@ -196,26 +197,24 @@ function Home() {
                 data-wow-delay=".5s">
                 <h5 className="text-primary">About Us</h5>
                 <h1 className="mb-4">
-                  About HighTech Agency And It's Innovative IT Solutions
+                  Explore TechyCoder's Innovative Internship Opportunities
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  efficitur quis purus ut interdum. Pellentesque aliquam dolor
-                  eget urna ultricies tincidunt. Nam volutpat libero sit amet
-                  leo cursus, ac viverra eros tristique. Morbi quis quam mi.
-                  Cras vel gravida eros. Proin scelerisque quam nec elementum
-                  viverra. Suspendisse viverra hendrerit diam in tempus. Etiam
-                  gravida justo nec erat vestibulum, et malesuada augue laoreet.
+                  TechyCoder is dedicated to cultivating the next generation of
+                  tech talent through immersive internship programs across
+                  diverse domains. Our innovative approach blends hands-on
+                  experience with cutting-edge technologies, empowering aspiring
+                  professionals to thrive in the ever-evolving IT landscape.
                 </p>
                 <p className="mb-4">
-                  Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam
-                  volutpat libero sit amet leo cursus, ac viverra eros
-                  tristique. Morbi quis quam mi. Cras vel gravida eros. Proin
-                  scelerisque quam nec elementum viverra. Suspendisse viverra
-                  hendrerit diam in tempus.
+                  At TechyCoder, we offer a collaborative environment where
+                  interns have the opportunity to work on real-world projects,
+                  receive mentorship from industry experts, and gain valuable
+                  skills that pave the way for a successful career in
+                  technology.
                 </p>
                 <a
-                  href=""
+                  href="/about"
                   className="btn btn-secondary rounded-pill px-5 py-3 text-white">
                   More Details
                 </a>
@@ -224,151 +223,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="container-fluid services py-5 mb-5">
-          <div className="container">
-            <div
-              className="text-center mx-auto pb-5 wow fadeIn"
-              data-wow-delay=".3s"
-              style={{ maxWidth: "600px" }}>
-              <h5 className="text-primary">Our Services</h5>
-              <h1>Services Built Specifically For Your Business</h1>
-            </div>
-            <div className="row g-5 services-inner">
-              <div
-                className="col-md-6 col-lg-4 wow fadeIn"
-                data-wow-delay=".3s">
-                <div className="services-item bg-light">
-                  <div className="p-4 text-center services-content">
-                    <div className="services-content-icon">
-                      <i className="fa fa-code fa-7x mb-4 text-primary"></i>
-                      <h4 className="mb-3">Web Design</h4>
-                      <p className="mb-4">
-                        Lorem ipsum dolor sit amet elit. Sed efficitur quis
-                        purus ut interdum. Aliquam dolor eget urna ultricies
-                        tincidunt.
-                      </p>
-                      <a
-                        href=""
-                        className="btn btn-secondary text-white px-5 py-3 rounded-pill">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-6 col-lg-4 wow fadeIn"
-                data-wow-delay=".5s">
-                <div className="services-item bg-light">
-                  <div className="p-4 text-center services-content">
-                    <div className="services-content-icon">
-                      <i className="fa fa-file-code fa-7x mb-4 text-primary"></i>
-                      <h4 className="mb-3">Web Development</h4>
-                      <p className="mb-4">
-                        Lorem ipsum dolor sit amet elit. Sed efficitur quis
-                        purus ut interdum. Aliquam dolor eget urna ultricies
-                        tincidunt.
-                      </p>
-                      <a
-                        href=""
-                        className="btn btn-secondary text-white px-5 py-3 rounded-pill">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-6 col-lg-4 wow fadeIn"
-                data-wow-delay=".7s">
-                <div className="services-item bg-light">
-                  <div className="p-4 text-center services-content">
-                    <div className="services-content-icon">
-                      <i className="fa fa-external-link-alt fa-7x mb-4 text-primary"></i>
-                      <h4 className="mb-3">UI/UX Design</h4>
-                      <p className="mb-4">
-                        Lorem ipsum dolor sit amet elit. Sed efficitur quis
-                        purus ut interdum. Aliquam dolor eget urna ultricies
-                        tincidunt.
-                      </p>
-                      <a
-                        href=""
-                        className="btn btn-secondary text-white px-5 py-3 rounded-pill">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-6 col-lg-4 wow fadeIn"
-                data-wow-delay=".3s">
-                <div className="services-item bg-light">
-                  <div className="p-4 text-center services-content">
-                    <div className="services-content-icon">
-                      <i className="fas fa-user-secret fa-7x mb-4 text-primary"></i>
-                      <h4 className="mb-3">Web Cecurity</h4>
-                      <p className="mb-4">
-                        Lorem ipsum dolor sit amet elit. Sed efficitur quis
-                        purus ut interdum. Aliquam dolor eget urna ultricies
-                        tincidunt.
-                      </p>
-                      <a
-                        href=""
-                        className="btn btn-secondary text-white px-5 py-3 rounded-pill">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-6 col-lg-4 wow fadeIn"
-                data-wow-delay=".5s">
-                <div className="services-item bg-light">
-                  <div className="p-4 text-center services-content">
-                    <div className="services-content-icon">
-                      <i className="fa fa-envelope-open fa-7x mb-4 text-primary"></i>
-                      <h4 className="mb-3">Digital Marketing</h4>
-                      <p className="mb-4">
-                        Lorem ipsum dolor sit amet elit. Sed efficitur quis
-                        purus ut interdum. Aliquam dolor eget urna ultricies
-                        tincidunt.
-                      </p>
-                      <a
-                        href=""
-                        className="btn btn-secondary text-white px-5 py-3 rounded-pill">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-6 col-lg-4 wow fadeIn"
-                data-wow-delay=".7s">
-                <div className="services-item bg-light">
-                  <div className="p-4 text-center services-content">
-                    <div className="services-content-icon">
-                      <i className="fas fa-laptop fa-7x mb-4 text-primary"></i>
-                      <h4 className="mb-3">Programming</h4>
-                      <p className="mb-4">
-                        Lorem ipsum dolor sit amet elit. Sed efficitur quis
-                        purus ut interdum. Aliquam dolor eget urna ultricies
-                        tincidunt.
-                      </p>
-                      <a
-                        href=""
-                        className="btn btn-secondary text-white px-5 py-3 rounded-pill">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Services />
 
         <div className="container-fluid project py-5 mb-5">
           <div className="container">

@@ -13,6 +13,9 @@ export default function Programes() {
     email: "",
     year: "",
     domain: "",
+    OfferLetter: false,
+    TaskComplition: false,
+    InterShipCompliton: false,
     uniqueId: generateRandomId(),
     currentDate: getCurrentDate(),
   });
@@ -37,6 +40,9 @@ export default function Programes() {
         email: "",
         year: "",
         domain: "",
+        OfferLetter: false,
+        TaskComplition: false,
+        InterShipCompliton: false,
         uniqueId: generateRandomId(),
         currentDate: getCurrentDate(),
       });
@@ -103,241 +109,266 @@ export default function Programes() {
         </div>
       )}
       <div classNameName="flex justify-center p-5">
-        <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-5xl">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
-            Virtual Internship
-          </span>{" "}
-          <span classNameName="text-purple-700"> Program</span>
-        </h1>
+        <div
+          className="text-center mx-auto pb-5 wow fadeIn pt-5"
+          data-wow-delay=".3s"
+          style={{ maxWidth: "600px" }}>
+          <h1>Embark on Your Dream Internship Journey Today!</h1>
+        </div>
       </div>
-      <div className="flex items-center justify-center p-12">
-        {/* <!-- Author: FormBold Team --> */}
-        <div className="container">
-          <form onSubmit={SubmitForm}>
-            <div className="mb-3">
-              <label for="name" className="form-label">
-                Full Name
-              </label>
-              <input
-                type="text"
-                required
-                name="name"
-                id="name"
-                placeholder="Full Name"
-                value={formData.name}
-                onChange={handleChange}
-                className="form-control"
-              />
-            </div>
-            <div className="mb-3">
-              <label for="phone" className="form-label">
-                Contact Number
-              </label>
-              <input
-                type="text"
-                name="phone"
-                id="phone"
-                required
-                value={formData.phone}
-                onChange={handleChange}
-                className="form-control"
-              />
-            </div>
-            <div className="mb-3">
-              <label for="email" className="form-label">
-                Email Address
-              </label>
-              <input
-                type="email"
-                required
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                id="email"
-                placeholder="Enter your email"
-                className="form-control"
-              />
-            </div>
+      <div className="container">
+        <div className="flex items-center justify-center p-12">
+          {/* <!-- Author: FormBold Team --> */}
+          <div className="container">
+            <form onSubmit={SubmitForm}>
+              <div className="mb-3">
+                <label for="name" className="form-label">
+                  Full Name
+                </label>
+                <input
+                  type="text"
+                  required
+                  name="name"
+                  id="name"
+                  placeholder="Full Name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  className="form-control"
+                />
+              </div>
+              <div className="mb-3">
+                <label for="phone" className="form-label">
+                  Contact Number
+                </label>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  required
+                  value={formData.phone}
+                  onChange={handleChange}
+                  className="form-control"
+                />
+              </div>
+              <div className="mb-3">
+                <label for="email" className="form-label">
+                  Email Address
+                </label>
+                <input
+                  type="email"
+                  required
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  id="email"
+                  placeholder="Enter your email"
+                  className="form-control"
+                />
+              </div>
 
-            <div classNameName="mb-4">
-              <label classNameName="block text-gray-700 font-medium mb-2">
-                Year
-              </label>
-              <div classNameName="flex flex-wrap -mx-2">
-                <div classNameName="px-2 w-1/3">
-                  <div classNameName="form-check">
-                    <input
-                      type="radio"
-                      id="year-1"
-                      name="year"
-                      value="1st Year"
-                      onChange={handleChange}
-                      checked={formData.year === "1st Year"}
-                      classNameName="form-check-input"
-                    />
-                    <label htmlFor="year-1" classNameName="form-check-label">
-                      1st Year
-                    </label>
+              <div classNameName="mb-4">
+                <label classNameName="block text-gray-700 font-medium mb-2 p-3">
+                  Year
+                </label>
+                <div classNameName="flex flex-wrap -mx-2">
+                  <div classNameName="px-2 w-1/3">
+                    <div classNameName="form-check">
+                      <input
+                        type="radio"
+                        id="year-1"
+                        name="year"
+                        value="1st Year"
+                        onChange={handleChange}
+                        checked={formData.year === "1st Year"}
+                        classNameName="form-check-input"
+                      />
+                      <label htmlFor="year-1" classNameName="form-check-label">
+                        1st Year
+                      </label>
+                    </div>
                   </div>
-                </div>
-                <div classNameName="px-2 w-1/3">
-                  <div classNameName="form-check">
-                    <input
-                      type="radio"
-                      id="year-2"
-                      name="year"
-                      value="2nd Year"
-                      onChange={handleChange}
-                      checked={formData.year === "2nd Year"}
-                      classNameName="form-check-input"
-                    />
-                    <label htmlFor="year-2" classNameName="form-check-label">
-                      2nd Year
-                    </label>
+                  <div classNameName="px-2 w-1/3">
+                    <div classNameName="form-check">
+                      <input
+                        type="radio"
+                        id="year-2"
+                        name="year"
+                        value="2nd Year"
+                        onChange={handleChange}
+                        checked={formData.year === "2nd Year"}
+                        classNameName="form-check-input"
+                      />
+                      <label htmlFor="year-2" classNameName="form-check-label">
+                        2nd Year
+                      </label>
+                    </div>
                   </div>
-                </div>
-                <div classNameName="px-2 w-1/3">
-                  <div classNameName="form-check">
-                    <input
-                      type="radio"
-                      id="year-3"
-                      name="year"
-                      value="3rd Year"
-                      onChange={handleChange}
-                      checked={formData.year === "3rd Year"}
-                      classNameName="form-check-input"
-                    />
-                    <label htmlFor="year-3" classNameName="form-check-label">
-                      3rd Year
-                    </label>
+                  <div classNameName="px-2 w-1/3">
+                    <div classNameName="form-check">
+                      <input
+                        type="radio"
+                        id="year-3"
+                        name="year"
+                        value="3rd Year"
+                        onChange={handleChange}
+                        checked={formData.year === "3rd Year"}
+                        classNameName="form-check-input"
+                      />
+                      <label htmlFor="year-3" classNameName="form-check-label">
+                        3rd Year
+                      </label>
+                    </div>
                   </div>
-                </div>
-                <div classNameName="px-2 w-1/3">
-                  <div classNameName="form-check">
-                    <input
-                      type="radio"
-                      id="year-4"
-                      name="year"
-                      value="4th Year"
-                      onChange={handleChange}
-                      checked={formData.year === "4th Year"}
-                      classNameName="form-check-input"
-                    />
-                    <label htmlFor="year-4" classNameName="form-check-label">
-                      4th Year
-                    </label>
+                  <div classNameName="px-2 w-1/3">
+                    <div classNameName="form-check">
+                      <input
+                        type="radio"
+                        id="year-4"
+                        name="year"
+                        value="4th Year"
+                        onChange={handleChange}
+                        checked={formData.year === "4th Year"}
+                        classNameName="form-check-input"
+                      />
+                      <label htmlFor="year-4" classNameName="form-check-label">
+                        4th Year
+                      </label>
+                    </div>
                   </div>
-                </div>
-                <div classNameName="px-2 w-1/3">
-                  <div classNameName="form-check">
-                    <input
-                      type="radio"
-                      id="year-other"
-                      name="year"
-                      value="Other"
-                      onChange={handleChange}
-                      checked={formData.year === "Other"}
-                      classNameName="form-check-input"
-                    />
-                    <label htmlFor="year-other" classNameName="form-check-label">
-                      Other
-                    </label>
+                  <div classNameName="px-2 w-1/3">
+                    <div classNameName="form-check">
+                      <input
+                        type="radio"
+                        id="year-other"
+                        name="year"
+                        value="Other"
+                        onChange={handleChange}
+                        checked={formData.year === "Other"}
+                        classNameName="form-check-input"
+                      />
+                      <label
+                        htmlFor="year-other"
+                        classNameName="form-check-label">
+                        Other
+                      </label>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div classNameName="mb-4">
-              <label classNameName="block text-gray-700 font-medium mb-2">
-                Domain Of Internship *
-              </label>
-              <div classNameName="form-check">
-                <input
-                  type="radio"
-                  id="web-development-basic"
-                  name="domain"
-                  value="Web Development Basic"
-                  onChange={handleChange}
-                  checked={formData.domain === "Web Development Basic"}
-                  classNameName="form-check-input"
-                />
-                <label
-                  htmlFor="web-development-basic"
-                  classNameName="form-check-label">
-                  Web Development Basic
+              <div classNameName="mb-4 mt-5" style={{ marginTop: "12px" }}>
+                <label classNameName="block text-gray-700 font-medium mb-2 p-5">
+                  Domain Of Internship *
                 </label>
+                <div classNameName="form-check">
+                  <input
+                    type="radio"
+                    id="web-development-basic"
+                    name="domain"
+                    value="Web Development Basic"
+                    onChange={handleChange}
+                    checked={formData.domain === "Web Development Basic"}
+                    classNameName="form-check-input"
+                  />
+                  <label
+                    htmlFor="web-development-basic"
+                    classNameName="form-check-label">
+                    Web Development Basic
+                  </label>
+                </div>
+                <div classNameName="form-check">
+                  <input
+                    type="radio"
+                    id="full-stack-web-development"
+                    name="domain"
+                    value="Full Stack Web Development (Using Any Stack)"
+                    onChange={handleChange}
+                    checked={
+                      formData.domain ===
+                      "Full Stack Web Development (Using Any Stack)"
+                    }
+                    classNameName="form-check-input"
+                  />
+                  <label
+                    htmlFor="full-stack-web-development"
+                    classNameName="form-check-label">
+                    Full Stack Web Development
+                  </label>
+                </div>
+                <div classNameName="form-check">
+                  <input
+                    type="radio"
+                    id="app-development"
+                    name="domain"
+                    value="App Development"
+                    onChange={handleChange}
+                    checked={formData.domain === "App Development"}
+                    classNameName="form-check-input"
+                  />
+                  <label
+                    htmlFor="app-development"
+                    classNameName="form-check-label">
+                    App Development
+                  </label>
+                </div>
+                <div classNameName="form-check">
+                  <input
+                    type="radio"
+                    id="Python"
+                    name="domain"
+                    value="Python Development"
+                    onChange={handleChange}
+                    checked={formData.domain === "Python Development"}
+                    classNameName="form-check-input"
+                  />
+                  <label htmlFor="Python" classNameName="form-check-label">
+                    Python Development
+                  </label>
+                </div>
+                <div classNameName="form-check">
+                  <input
+                    type="radio"
+                    id="machine-learning"
+                    name="domain"
+                    value="Machine Learning"
+                    onChange={handleChange}
+                    checked={formData.domain === "Machine Learning"}
+                    classNameName="form-check-input"
+                  />
+                  <label
+                    htmlFor="machine-learning"
+                    classNameName="form-check-label">
+                    Machine Learning / AI
+                  </label>
+                </div>
+                <div classNameName="form-check">
+                  <input
+                    type="radio"
+                    id="data-science"
+                    name="domain"
+                    value="Java Development"
+                    onChange={handleChange}
+                    checked={formData.domain === "Java Development"}
+                    classNameName="form-check-input"
+                  />
+                  <label
+                    htmlFor="data-science"
+                    classNameName="form-check-label">
+                    Java Development
+                  </label>
+                </div>
               </div>
-              <div classNameName="form-check">
-                <input
-                  type="radio"
-                  id="full-stack-web-development"
-                  name="domain"
-                  value="Full Stack Web Development (Using Any Stack)"
-                  onChange={handleChange}
-                  checked={
-                    formData.domain ===
-                    "Full Stack Web Development (Using Any Stack)"
-                  }
-                  classNameName="form-check-input"
-                />
-                <label
-                  htmlFor="full-stack-web-development"
-                  classNameName="form-check-label">
-                  Full Stack Web Development
-                </label>
-              </div>
-              <div classNameName="form-check">
-                <input
-                  type="radio"
-                  id="app-development"
-                  name="domain"
-                  value="App Development"
-                  onChange={handleChange}
-                  checked={formData.domain === "App Development"}
-                  classNameName="form-check-input"
-                />
-                <label htmlFor="app-development" classNameName="form-check-label">
-                  App Development
-                </label>
-              </div>
-              <div classNameName="form-check">
-                <input
-                  type="radio"
-                  id="machine-learning"
-                  name="domain"
-                  value="Machine Learning"
-                  onChange={handleChange}
-                  checked={formData.domain === "Machine Learning"}
-                  classNameName="form-check-input"
-                />
-                <label htmlFor="machine-learning" classNameName="form-check-label">
-                  Machine Learning
-                </label>
-              </div>
-              <div classNameName="form-check">
-                <input
-                  type="radio"
-                  id="data-science"
-                  name="domain"
-                  value="Java Development"
-                  onChange={handleChange}
-                  checked={formData.domain === "Java Development"}
-                  classNameName="form-check-input"
-                />
-                <label htmlFor="data-science" classNameName="form-check-label">
-                  Java Development
-                </label>
-              </div>
-            </div>
 
-            <div>
-              <button
-                type="submit"
-                classNameName="btn btn-primary w-full rounded-md py-3 px-8 text-center text-base font-semibold text-white">
-                Submit
-              </button>
-            </div>
-          </form>
+              <div style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  data-mdb-ripple-init>
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </>
