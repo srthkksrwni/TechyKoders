@@ -41,7 +41,7 @@ function Services() {
               <div className="services-item bg-light">
                 <div className="p-4 text-center services-content">
                   <div className="services-content-icon">
-                    <i class="fab fa-python fa-7x mb-4 text-primary"></i>
+                    <i class="fab fa-python fa-7x mb-4 text-primary "></i>
 
                     <h4 className="mb-3">Python Development</h4>
                     <p className="mb-4">
