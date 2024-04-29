@@ -6,6 +6,7 @@ import team1 from "../../src/assets/img/team-1.jpg";
 import team2 from "../../src/assets/img/team-2.jpg";
 import team3 from "../../src/assets/img/team-3.jpg";
 import team4 from "../../src/assets/img/team-4.jpg";
+import { NavLink } from "react-router-dom";
 function About() {
   return (
     <>
@@ -20,10 +21,10 @@ function About() {
           <nav aria-label="breadcrumb animated slideInDown">
             <ol className="breadcrumb justify-content-center mb-0">
               <li className="breadcrumb-item">
-                <a href="#">Home</a>
+                <NavLink to={"/"}>Home</NavLink>
               </li>
               <li className="breadcrumb-item">
-                <a href="#">Pages</a>
+                <NavLink to={'/services'}> Services</NavLink>
               </li>
               <li className="breadcrumb-item" aria-current="page">
                 About
@@ -38,31 +39,31 @@ function About() {
       <div className="container-fluid bg-secondary py-5">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 wow fadeIn" data-wow-delay=".1s">
+            <div className="col-lg-4 wow fadeIn" data-wow-delay=".1s">
               <div className="d-flex counter">
-                <h1 className="me-3 text-primary counter-value">99</h1>
+                <h1 className="me-3 text-primary counter-value">100+</h1>
                 <h5 className="text-white mt-1">
-                  Success in getting happy customer
+                  Success in getting happy students
                 </h5>
               </div>
             </div>
-            <div className="col-lg-3 wow fadeIn" data-wow-delay=".3s">
+            {/* <div className="col-lg-3 wow fadeIn" data-wow-delay=".3s">
               <div className="d-flex counter">
                 <h1 className="me-3 text-primary counter-value">25</h1>
                 <h5 className="text-white mt-1">
                   Thousands of successful business
                 </h5>
               </div>
-            </div>
-            <div className="col-lg-3 wow fadeIn" data-wow-delay=".5s">
+              </div> */}
+            <div className="col-lg-4 wow fadeIn" data-wow-delay=".5s">
               <div className="d-flex counter">
-                <h1 className="me-3 text-primary counter-value">120</h1>
+                <h1 className="me-3 text-primary counter-value">25+</h1>
                 <h5 className="text-white mt-1">
-                  Total clients who love HighTech
+                  Projects are available to show their skills
                 </h5>
               </div>
             </div>
-            <div className="col-lg-3 wow fadeIn" data-wow-delay=".7s">
+            <div className="col-lg-4 wow fadeIn" data-wow-delay=".7s">
               <div className="d-flex counter">
                 <h1 className="me-3 text-primary counter-value">5</h1>
                 <h5 className="text-white mt-1">

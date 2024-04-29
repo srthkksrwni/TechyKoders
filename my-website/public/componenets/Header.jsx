@@ -7,11 +7,11 @@ function Header() {
       <div className="container-fluid bg-primary">
         <div className="container">
           <nav className="navbar navbar-dark navbar-expand-lg py-0">
-            <Link href={"/"} className="navbar-brand">
+            <NavLink to={"/"} className="navbar-brand">
               <h1 className="text-white fw-bold d-block">
                 Techy<span className="text-secondary">Koders</span>{" "}
               </h1>
-            </Link>
+            </NavLink>
             <button
               type="button"
               className="navbar-toggler me-0"

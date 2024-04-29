@@ -3,12 +3,12 @@ import carousel_Image1 from "../../src/assets/img/carousel-1.jpg";
 import carousel_image2 from "../../src/assets/img/carousel-2.jpg";
 import about_img1 from "../../src/assets/img/about-1.jpg";
 import about_img2 from "../../src/assets/img/about-2.jpg";
-import img1 from "../../src/assets/img/project-1.jpg";
-import img2 from "../../src/assets/img/project-2.jpg";
-import img3 from "../../src/assets/img/project-3.jpg";
-import img4 from "../../src/assets/img/project-4.jpg";
-import img5 from "../../src/assets/img/project-5.jpg";
-import img6 from "../../src/assets/img/project-6.jpg";
+// import img1 from "../../src/assets/img/project-1.jpg";
+// import img2 from "../../src/assets/img/project-2.jpg";
+// import img3 from "../../src/assets/img/project-3.jpg";
+// import img4 from "../../src/assets/img/project-4.jpg";
+// import img5 from "../../src/assets/img/project-5.jpg";
+// import img6 from "../../src/assets/img/project-6.jpg";
 import Services from "./Services";
 
 function Home() {
@@ -130,44 +130,43 @@ function Home() {
         </div>
 
         <div className="container-fluid bg-secondary py-5">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-3 wow fadeIn" data-wow-delay=".1s">
-                <div className="d-flex counter">
-                  <h1 className="me-3 text-primary counter-value">99</h1>
-                  <h5 className="text-white mt-1">
-                    Success in getting happy customer
-                  </h5>
-                </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4 wow fadeIn" data-wow-delay=".1s">
+              <div className="d-flex counter">
+                <h1 className="me-3 text-primary counter-value">100+</h1>
+                <h5 className="text-white mt-1">
+                  Success in getting happy students
+                </h5>
               </div>
-              <div className="col-lg-3 wow fadeIn" data-wow-delay=".3s">
-                <div className="d-flex counter">
-                  <h1 className="me-3 text-primary counter-value">25</h1>
-                  <h5 className="text-white mt-1">
-                    Thousands of successful business
-                  </h5>
-                </div>
+            </div>
+            {/* <div className="col-lg-3 wow fadeIn" data-wow-delay=".3s">
+              <div className="d-flex counter">
+                <h1 className="me-3 text-primary counter-value">25</h1>
+                <h5 className="text-white mt-1">
+                  Thousands of successful business
+                </h5>
               </div>
-              <div className="col-lg-3 wow fadeIn" data-wow-delay=".5s">
-                <div className="d-flex counter">
-                  <h1 className="me-3 text-primary counter-value">120</h1>
-                  <h5 className="text-white mt-1">
-                    Total clients who love HighTech
-                  </h5>
-                </div>
+              </div> */}
+            <div className="col-lg-4 wow fadeIn" data-wow-delay=".5s">
+              <div className="d-flex counter">
+                <h1 className="me-3 text-primary counter-value">25+</h1>
+                <h5 className="text-white mt-1">
+                  Projects are available to show their skills
+                </h5>
               </div>
-              <div className="col-lg-3 wow fadeIn" data-wow-delay=".7s">
-                <div className="d-flex counter">
-                  <h1 className="me-3 text-primary counter-value">5</h1>
-                  <h5 className="text-white mt-1">
-                    Stars reviews given by satisfied clients
-                  </h5>
-                </div>
+            </div>
+            <div className="col-lg-4 wow fadeIn" data-wow-delay=".7s">
+              <div className="d-flex counter">
+                <h1 className="me-3 text-primary counter-value">5</h1>
+                <h5 className="text-white mt-1">
+                  Stars reviews given by satisfied clients
+                </h5>
               </div>
             </div>
           </div>
         </div>
-
+      </div>
         <div className="container-fluid py-5 my-5">
           <div className="container pt-5">
             <div className="row g-5">
@@ -225,7 +224,7 @@ function Home() {
 
         <Services />
 
-        <div className="container-fluid project py-5 mb-5">
+        {/* <div className="container-fluid project py-5 mb-5">
           <div className="container">
             <div
               className="text-center mx-auto pb-5 wow fadeIn"
@@ -351,7 +350,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </>
       {/* <Footer /> */}
     </>
