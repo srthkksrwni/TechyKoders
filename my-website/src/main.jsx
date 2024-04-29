@@ -9,6 +9,8 @@ import Services from "../public/pages/Services.jsx";
 import Projects from "../public/pages/Projects.jsx";
 import Contact from "../public/pages/Contact.jsx";
 import Programes from "../public/componenets/Programes.jsx";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const router = createBrowserRouter([
   {
@@ -47,5 +49,18 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
     <RouterProvider router={router} />
+    <ToastContainer
+position="top-right"
+autoClose={2000}
+limit={0}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+theme="dark"
+transition= "Bounce"
+/>
   </React.StrictMode>,
 );

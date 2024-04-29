@@ -3,6 +3,7 @@ import { addDoc, collection, doc, setDoc } from "firebase/firestore";
 
 import { getFirestore } from "firebase/firestore";
 import { app } from "../../Firebase";
+import { toast } from "react-toastify";
 
 export default function Programes() {
   const db = getFirestore(app);
@@ -31,7 +32,9 @@ export default function Programes() {
     try {
       await addDoc(collection(db, "Student"), formData);
       console.log("Document successfully written!");
-      setalert(true);
+      // setalert(true);
+      toast.success("You have successfully submited  !")
+
 
       setFormData({
         // Reset form data after submission
@@ -84,7 +87,7 @@ export default function Programes() {
 
   return (
     <>
-      {alert && (
+      {/* {alert && (
         <div className="fixed top-0 left-0 right-0 mx-auto mt-10 z-50 flex justify-center">
           <div className="max-w-xs bg-white border border-gray-200 rounded-xl shadow-lg dark:bg-gray-800 dark:border-gray-700">
             <div className="flex p-4">
@@ -107,7 +110,7 @@ export default function Programes() {
             </div>
           </div>
         </div>
-      )}
+      )} */}
 
       <div classNameName="flex justify-center p-5">
         <div
