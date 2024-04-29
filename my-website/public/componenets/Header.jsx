@@ -25,31 +25,30 @@ function Header() {
               <div className="navbar-nav ms-auto mx-xl-auto p-0">
                 <NavLink
                   to={"/"}
-                  className="nav-item nav-link active text-secondary">
-                  Home{" "}
+                  exact
+                  className="nav-item nav-link"
+                  activeClassName="active">
+                  Home
                 </NavLink>
-                <NavLink to={"/about"} className="nav-item nav-link">
+                <NavLink
+                  to={"/about"}
+                  className="nav-item nav-link"
+                  activeClassName="active">
                   About
                 </NavLink>
-                <NavLink to={"/services"} className="nav-item nav-link">
+                <NavLink
+                  to={"/services"}
+                  className="nav-item nav-link"
+                  activeClassName="active">
                   Services
                 </NavLink>
-                <NavLink to={"/projects"} className="nav-item nav-link">
-                  Projects
-                </NavLink>
-                {/* <NavLink to={'/projects'} className="nav-item nav-link">Projects</NavLink> */}
-                {/* <div className="nav-item dropdown">
-                                    <NavLink to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</NavLink>
-                                    <div className="dropdown-menu rounded">
-                                        <a href="blog.html" className="dropdown-item">Our Blog</a>
-                                        <a href="team.html" className="dropdown-item">Our Team</a>
-                                        <a href="testimonial.html" className="dropdown-item">Testimonial</a>
-                                        <a href="404.html" className="dropdown-item">404 Page</a>
-                                    </div>
-                                </div> */}
-                <a href={"/contact"} className="nav-item nav-link">
+
+                <NavLink
+                  to={"/contact"}
+                  className="nav-item nav-link"
+                  activeClassName="active">
                   Contact
-                </a>
+                </NavLink>
               </div>
             </div>
             <div className="d-none d-xl-flex flex-shirink-0">
