@@ -52,7 +52,7 @@ function Home() {
                       Innovators to Thrive in the Ever-Evolving World of
                       Technology
                     </p>
-                    <a href="/intership" className="me-2">
+                    <a href="/Intership" className="me-2">
                       <button
                         type="button"
                         className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">
@@ -130,17 +130,17 @@ function Home() {
         </div>
 
         <div className="container-fluid bg-secondary py-5">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-4 wow fadeIn" data-wow-delay=".1s">
-              <div className="d-flex counter">
-                <h1 className="me-3 text-primary counter-value">100+</h1>
-                <h5 className="text-white mt-1">
-                  Success in getting happy students
-                </h5>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-4 wow fadeIn" data-wow-delay=".1s">
+                <div className="d-flex counter">
+                  <h1 className="me-3 text-primary counter-value">100+</h1>
+                  <h5 className="text-white mt-1">
+                    Success in getting happy students
+                  </h5>
+                </div>
               </div>
-            </div>
-            {/* <div className="col-lg-3 wow fadeIn" data-wow-delay=".3s">
+              {/* <div className="col-lg-3 wow fadeIn" data-wow-delay=".3s">
               <div className="d-flex counter">
                 <h1 className="me-3 text-primary counter-value">25</h1>
                 <h5 className="text-white mt-1">
@@ -148,25 +148,25 @@ function Home() {
                 </h5>
               </div>
               </div> */}
-            <div className="col-lg-4 wow fadeIn" data-wow-delay=".5s">
-              <div className="d-flex counter">
-                <h1 className="me-3 text-primary counter-value">25+</h1>
-                <h5 className="text-white mt-1">
-                  Projects are available to show their skills
-                </h5>
+              <div className="col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                <div className="d-flex counter">
+                  <h1 className="me-3 text-primary counter-value">25+</h1>
+                  <h5 className="text-white mt-1">
+                    Projects are available to show their skills
+                  </h5>
+                </div>
               </div>
-            </div>
-            <div className="col-lg-4 wow fadeIn" data-wow-delay=".7s">
-              <div className="d-flex counter">
-                <h1 className="me-3 text-primary counter-value">5</h1>
-                <h5 className="text-white mt-1">
-                  Stars reviews given by satisfied clients
-                </h5>
+              <div className="col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                <div className="d-flex counter">
+                  <h1 className="me-3 text-primary counter-value">5</h1>
+                  <h5 className="text-white mt-1">
+                    Stars reviews given by satisfied clients
+                  </h5>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
         <div className="container-fluid py-5 my-5">
           <div className="container pt-5">
             <div className="row g-5">
