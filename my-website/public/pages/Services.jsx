@@ -12,8 +12,8 @@ function Services() {
             className="text-center mx-auto pb-5 wow fadeIn"
             data-wow-delay=".3s"
             style={{ maxWidth: "600px" }}>
-            <h5 className="text-primary">Our Intership</h5>
-            <h1>Intership Built Specifically For Your Carrier</h1>
+            <h5 className="text-primary">Our Internship</h5>
+            <h1>Internship Built Specifically For Your Carrier</h1>
           </div>
           <div className="row g-5 services-inner">
             <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
@@ -29,7 +29,7 @@ function Services() {
                       building and maintaining web applications.
                     </p>
                     <a
-                      href="/IntershipForm"
+                      href="/InternshipForm"
                       className="btn btn-secondary text-white px-5 py-3 rounded-pill">
                       Start Now
                     </a>
@@ -51,7 +51,7 @@ function Services() {
                       analysis, and automation.
                     </p>
                     <a
-                      href="/IntershipForm"
+                      href="/InternshipForm"
                       className="btn btn-secondary text-white px-5 py-3 rounded-pill">
                       Start Now
                     </a>
@@ -74,7 +74,7 @@ function Services() {
                       scalability
                     </p>
                     <a
-                      href="/IntershipForm"
+                      href="/InternshipForm"
                       className="btn btn-secondary text-white px-5 py-3 rounded-pill">
                       Start Now
                     </a>
@@ -96,7 +96,7 @@ function Services() {
                       intelligent systems.
                     </p>
                     <a
-                      href="/IntershipForm"
+                      href="/InternshipForm"
                       className="btn btn-secondary text-white px-5 py-3 rounded-pill">
                       Start Now
                     </a>
@@ -118,7 +118,7 @@ function Services() {
                       in building end-to-end web applications.
                     </p>
                     <a
-                      href="/IntershipForm"
+                      href="/InternshipForm"
                       className="btn btn-secondary text-white px-5 py-3 rounded-pill">
                       Start Now
                     </a>
@@ -141,7 +141,7 @@ function Services() {
                       that resonate with end users.
                     </p>
                     <a
-                      href="/IntershipForm"
+                      href="/InternshipForm"
                       className="btn btn-secondary text-white px-5 py-3 rounded-pill">
                       Start Now
                     </a>

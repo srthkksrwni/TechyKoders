@@ -52,11 +52,11 @@ function Home() {
                       Innovators to Thrive in the Ever-Evolving World of
                       Technology
                     </p>
-                    <a href="/Intership" className="me-2">
+                    <a href="/Internship" className="me-2">
                       <button
                         type="button"
                         className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">
-                        Intership Now
+                        Internship Now
                       </button>
                     </a>
                     <a href="" className="ms-2">
